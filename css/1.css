@@ -376,7 +376,7 @@
       bottom:0;
       left:0;
       background:url('../images/wave.png');
-      object-fit: cover;
+        background-size: cover;
       animation-delay: 10s;
       animation:wave 40s linear infinite;
 
@@ -639,4 +639,5 @@ a{
   text-align: center;
   font-weight: 900;
   font-size: 50px;
+  font-family: algerian;
 }
