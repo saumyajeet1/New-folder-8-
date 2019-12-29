@@ -4,11 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <link rel="stylesheet" href="./css/5.css">
     <link rel="stylesheet" href="./components/diamonds.css">
     <title>Document</title>
 </head>
 <body>
+ <!-- NAVIGATION BAR -->
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="./index.html#about">About</a>
+        <a href="./index.html#team">Team</a>
+        <a href="./index.html#events">Events</a>
+        <a href="./index.html#wings">Wings</a>
+        <a href="./gallery.html">Picture gallery</a>
+      </div>
+      
+      <span id="navig" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+      
+      <script>
+      function openNav() {
+        $("#mySidenav").css({"width" :"250px"});
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+      </script>
+
+
+<!--    
+   DIAMOND GRID GALLERY -->
+   <h1 class="events" id="gallery">OUR GALLERY</h1>
     <div class="diamond-grid">
         <div class="item"><img src="./images/1.jpg" alt=""></div>
         <div class="item"><img src="./images/4.jpg" alt=""></div>
