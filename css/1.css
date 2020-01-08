@@ -243,13 +243,14 @@
 }
  .names h3{
    font-weight:300;
-   font-family:algerian;
+   font-family: 'Gelasio', serif;
    text-align: center;
  }
 
  
  .names span{
-    font-family:algerian;
+  font-family: 'Gelasio', serif;
+  font-size:15px;
     align-items:center;
   }
 
@@ -640,4 +641,16 @@ a{
   font-weight: 900;
   font-size: 50px;
   font-family: algerian;
+}
+
+
+#teamer{
+  color:blue;
+  font-weight:400;
+  align-content: center;
+  font-size: 25px;
+}
+
+.teamer{
+  text-align:center;
 }
