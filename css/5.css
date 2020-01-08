@@ -16,6 +16,7 @@ body{
     background:#fff;
     opacity: 0.5;
     transition: 0.5s;
+    object-fit: cover;
 }
 
 .item:hover{
@@ -27,6 +28,7 @@ body{
     top:50%;
     left:0;
     transform:translateY(-50%) scale(1.5);
+
     width: 100%;
 }
 
