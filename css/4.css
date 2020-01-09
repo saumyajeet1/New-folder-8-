@@ -1,5 +1,6 @@
 body{
   background: #000;
+
 }
 .members{
   margin-left: 80px;
@@ -36,11 +37,11 @@ body{
     background:#fff;
     text-align:center;
     font-size:36px;
-    box-shadow:0 0 0 #9c27b0
+    box-shadow:0 0 0 #8c00ff
   }
   
   input:checked ~ .toogle{
-    box-shadow: 0 0 0 500px #9c27b0;
+    box-shadow: 0 0 0 500px #8c00ff;
     transform:rotate(225deg)
   }
 
@@ -63,7 +64,10 @@ body{
         pointer-events: none;
         transition: 0.5s;
         font-family: 'Roboto Slab', serif;
-        
+        align-items: center;
+        justify-content: center;
+        margin-top: 105px;
+        margin-left: -15px;
         opacity: 0;
       }
       
@@ -71,7 +75,9 @@ body{
         opacity: 1;
         transition-delay: 0.5s;
       }
-      
+      .imgbox{
+        object-fit: cover;
+      }
       .cardimg{
           position: absolute;
           left:0;
