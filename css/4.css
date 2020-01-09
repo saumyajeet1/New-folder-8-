@@ -28,7 +28,7 @@ body{
   .checked{
     opacity:0;
   }
-  
+ 
   .toogle{
     border-radius: 50%;
     pointer-events: none;
