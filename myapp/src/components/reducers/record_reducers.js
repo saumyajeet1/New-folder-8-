@@ -4,7 +4,10 @@ import {
     ALLALUM,
     SEARCHYR,
     ADDNEWS,
-    ALLNEWS
+    ALLNEWS,
+    ADDEVENTS,
+    ADDDETAIL,
+    ALLGALLERY
 } from "../actions/types";
 
 export default function(state={},action){
@@ -18,6 +21,12 @@ export default function(state={},action){
             return {...state, news:action.payload }
         case ALLALUM:
             return {...state, all:action.payload }
+        case ADDEVENTS:
+            return {...state, event:action.payload }
+        case ADDDETAIL:
+            return {...state, detail:action.payload }
+        case ALLGALLERY:
+            return {...state, gallery:action.payload }
         case ALLNEWS:
             return {...state, allnews:action.payload }
         case SEARCHYR:

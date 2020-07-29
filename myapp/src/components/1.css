@@ -291,6 +291,10 @@
     display: inline-block;
     margin: 5px;
   }
+  body{
+    background-color: yellow !important;
+    
+  }
   footer .footer_social li a {
     border: solid 1px #f50136;
     display: block;

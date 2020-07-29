@@ -1,16 +1,18 @@
 import axios from 'axios';
 import {
     ADDDETAIL,
+    ADDEVENTS,
     ADDRECORD,
     ALLNEWS,
     ALLALUM,
     ADDNEWS,
     SEARCHYR,
     GETRECORD,
-    ADDEDUCATION
+    ADDEDUCATION,
+    ALLGALLERY
 } from './types';
 
-import { RECORD_SERVER } from '../utils/misc';
+import { RECORD_SERVER } from '../../utils/misc';
 
 
 export function adddetails(data){
@@ -19,6 +21,16 @@ export function adddetails(data){
     
     return {
         type: ADDDETAIL,
+        payload: request
+    }
+}
+
+export function addevents(data){
+    const request = axios.post(`${RECORD_SERVER}/addevents`,data)
+        .then(response => response.data);
+    
+    return {
+        type: ADDEVENTS,
         payload: request
     }
 }
@@ -46,6 +58,16 @@ export function allalum(){
     }
 }
 
+
+export function allgallery(){
+    const request = axios.get(`${RECORD_SERVER}/allgallery`)
+        .then(response => response.data);
+    
+    return {
+        type: ALLGALLERY,
+        payload: request
+    }
+}
 export function allnews(){
     const request = axios.get(`${RECORD_SERVER}/allnews`)
         .then(response => response.data);

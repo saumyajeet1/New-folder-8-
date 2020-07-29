@@ -6,7 +6,8 @@ const formidable=require('express-formidable')
 const {auth}=require('./server/middleware/auth')
 const cloudinary=require('cloudinary')
 const { admin } = require('./server/middleware/admin');
-const {Alumni}=require("./server/models/alumni")
+const {Event}=require("./server/models/events")
+const {Gallery}=require("./server/models/gallery")
 const jwt=require('jsonwebtoken')
 var nodemailer = require('nodemailer');
 var compression = require('compression'); 
@@ -25,9 +26,9 @@ app.use(express.static('myapp/build'))
 
 
 cloudinary.config({
-    cloud_name:'',
-    api_key:'',
-    api_secret:''
+    cloud_name:'dfh6rn6dm',
+    api_key:'564281446315571',
+    api_secret:'aIXNbfYY1NE_P4tXvRztbKtn5LI'
 })
 
 
@@ -171,7 +172,7 @@ var transporter = nodemailer.createTransport({
         
 
 
-app.get('/api/records/allalum',auth,(req,res)=>{
+app.get('/api/records/allalum',(req,res)=>{
    console.log('hhhh')
     Record
     .find()
@@ -184,9 +185,23 @@ app.get('/api/records/allalum',auth,(req,res)=>{
        return res.status(200).send(allalum)
     })
  })
+ 
+app.get('/api/records/allgallery',(req,res)=>{
+    console.log('hhhh')
+     Gallery
+     .find()
+     .exec((err,allimg)=>{
+         if(err){
+             console.log(err)
+             res.status(400).send(err)
+             
+         }
+        return res.status(200).send(allimg)
+     })
+  })
 
  
-app.post('/api/records/searchyr',auth,(req,res)=>{
+app.post('/api/records/searchyr',(req,res)=>{
     console.log(req.body)
     Record.find( {$or: [
         {"year":req.body.year}, {"name":req.body.year},{"workplace":req.body.year}
@@ -206,7 +221,20 @@ app.post('/api/records/searchyr',auth,(req,res)=>{
 
 app.post('/api/records/adddetail',(req,res)=>{
   
-    const record = new Record(req.body);
+    const record = new Gallery(req.body);
+    record.save((err,doc)=>{
+        console.log(err)
+        if(err) return res.json({success:false,err});
+        res.status(200).json({
+            success: true,doc
+        })
+        console.log(doc.name)  
+    })
+})
+
+app.post('/api/records/addevents',(req,res)=>{
+  
+    const record = new Event(req.body);
     record.save((err,doc)=>{
         console.log(err)
         if(err) return res.json({success:false,err});

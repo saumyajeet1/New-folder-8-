@@ -5,7 +5,7 @@ body{
   margin-left: 80px;
 }
 .card{
-    width:280px;
+    width:400px;
     height: 300px;
     border:2px solid black;
     border-radius: 5px;
@@ -76,12 +76,13 @@ body{
       }
       .imgbox{
         object-fit: cover;
+        width:600px;
+        height:300px
       }
       .cardimg{
           position: absolute;
           left:0;
-        width:300px;
-        height:300px;
+          width:600px;
         object-fit: cover;
       }
       

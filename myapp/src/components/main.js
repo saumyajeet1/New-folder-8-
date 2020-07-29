@@ -81,7 +81,7 @@ class Main extends Component {
         {/* <!-- Events -->
      <!-- Enter pictures of events here --> */}
      <div className="row">
-          <h1 className="events" style={{color:"black !important", marginLeft:"20px"}}id="events">EVENTS</h1>
+          <h1 className="events" style={{color:"black", marginLeft:"20px"}}id="events">EVENTS</h1>
      <div className="contain" >
     <div className="card">
         <div className="imgcard">
@@ -95,7 +95,7 @@ class Main extends Component {
                 Winner), Dr. N. Rajam, Pt. Ajoy Chakraborty etc. have been show stealers in the recent past. So
                 what are you waiting for? Fasten your seatbelts and get ready to soak in India's rich heritage at
                 its finest.</p>
-                    <button onclick=""><a href="./loader2.html">READ MORE</a></button>
+                    {/* <button onclick=""><a href="./loader2.html">READ MORE</a></button> */}
            </div> 
     </div>
     <div className="card">
@@ -108,7 +108,7 @@ class Main extends Component {
                     year in the day of Makar Sankranti. The fierce battle of kites and the energetic dance moves
                     creates a vibrant environment . Everyone delves into the madness of this colourful festival and
                     enjoys every bit of time.</p>
-                        <button onclick=""><a href="https://m.facebook.com/story.php?story_fbid=2868811669881868&id=840463576050031">READ MORE</a></button>
+                        <button onClick=""><a href="https://m.facebook.com/story.php?story_fbid=2868811669881868&id=840463576050031">READ MORE</a></button>
                </div> 
             
         </div>
@@ -118,12 +118,12 @@ class Main extends Component {
                 </div>
                    <div className="detail">
                        <h2 className="titl">ANUBHAV</h2>
-                       <p className="info">" Creativity is intelligence having fun." With this mantra, SPIC MACAY NIT Durgapur Chapter and
+                       <p className="info" style={{fontSize:"10px"}}>" Creativity is intelligence having fun." With this mantra, SPIC MACAY NIT Durgapur Chapter and
                         BMEP join hands every year to organise its annual art workshop, Anubhav. This one of a kind art
                         workshop focuses to bring the colourful flare of creativity among the underprivileged children
                         of Durgapur. With a plethora of colourful art, craft and intricate origami, it is truly a magnificent
                         opportunity for the children to explore the depths of their imagination and unleash its vibrancy</p>
-                            <button onclick=""><a href="https://x.facebook.com/pg/spicmacaynitd/posts/?ref=page_internal&mt_nav=0">READ MORE</a></button>
+                            <button onClick=""><a href="https://x.facebook.com/pg/spicmacaynitd/posts/?ref=page_internal&mt_nav=0">READ MORE</a></button>
                    </div> 
             
             </div>

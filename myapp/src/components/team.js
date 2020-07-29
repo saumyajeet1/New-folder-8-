@@ -80,16 +80,16 @@ class Team extends Component {
         return (
             <div>
                
-    <h1 className="events" id="teammembers">OUR TEAM</h1>
+    <h1 className="events" id="teammembers" style={{color:"black"}}>OUR TEAM</h1>
 
-<h3 className="events" id="teammembers">4th Year</h3>
+<h3 className="events" id="teammembers" style={{color:"black"}}>4th Year</h3>
 <div className="members row">
    
    
 <div  className="col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
    <input type="checkbox" className="checked" name=" "/>
    <div className="toogle">+</div>
-   <div className="imgbox"> <img loading="lazy" className="cardimg " src={akshat} /></div>
+   <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={akshat} /></div>
    <div className="details"> 
    <div className="row">
   <div className="col-lg-12 name">
@@ -109,7 +109,7 @@ class Team extends Component {
    <div  className=" col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
        <input type="checkbox" className="checked" name=" "/>
        <div className="toogle">+</div>
-       <div className="imgbox"> <img loading="lazy" className="cardimg " src={rima} /></div>
+       <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={rima} /></div>
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
@@ -127,7 +127,7 @@ class Team extends Component {
    <div  className="col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
        <input type="checkbox" className="checked" name=" "/>
        <div className="toogle">+</div>
-       <div className="imgbox"> <img loading="lazy" className="cardimg " src={anik} /></div>
+       <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={anik} /></div>
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
@@ -151,7 +151,7 @@ class Team extends Component {
 <div  className="col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
    <input type="checkbox" className="checked" name=" "/>
    <div className="toogle">+</div>
-   <div className="imgbox"> <img loading="lazy" className="cardimg " src={sankalp} /></div>
+   <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={sankalp} /></div>
    <div className="details"> 
    <div className="row">
   <div className="col-lg-12 name">
@@ -171,7 +171,7 @@ class Team extends Component {
    <div  className=" col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
        <input type="checkbox" className="checked" name=" "/>
        <div className="toogle">+</div>
-       <div className="imgbox"> <img loading="lazy" className="cardimg " src={sohom} /></div>
+       <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={sohom} /></div>
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
@@ -189,7 +189,7 @@ class Team extends Component {
    <div  className="col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
        <input type="checkbox" className="checked" name=" "/>
        <div className="toogle">+</div>
-       <div className="imgbox"> <img loading="lazy" className="cardimg " src={liman} /></div>
+       <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={liman} /></div>
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
@@ -213,7 +213,7 @@ class Team extends Component {
 <div  className="col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
    <input type="checkbox" className="checked" name=" "/>
    <div className="toogle">+</div>
-   <div className="imgbox"> <img loading="lazy" className="cardimg " src={ankur} /></div>
+   <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={ankur} /></div>
    <div className="details"> 
    <div className="row">
   <div className="col-lg-12 name">
@@ -233,7 +233,7 @@ class Team extends Component {
    <div  className=" col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
        <input type="checkbox" className="checked" name=" "/>
        <div className="toogle">+</div>
-       <div className="imgbox"> <img loading="lazy" className="cardimg " src={souranil} /></div>
+       <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={souranil} /></div>
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
@@ -251,7 +251,7 @@ class Team extends Component {
    <div  className="col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
        <input type="checkbox" className="checked" name=" "/>
        <div className="toogle">+</div>
-       <div className="imgbox"> <img loading="lazy" className="cardimg " src={rojalin} /></div>
+       <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={rojalin} /></div>
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
@@ -275,7 +275,7 @@ class Team extends Component {
 <div  className="col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
    <input type="checkbox" className="checked" name=" "/>
    <div className="toogle">+</div>
-   <div className="imgbox"> <img loading="lazy" className="cardimg " src={mahesh} /></div>
+   <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={mahesh} /></div>
    <div className="details"> 
    <div className="row">
   <div className="col-lg-12 name">
@@ -295,7 +295,7 @@ class Team extends Component {
    <div  className=" col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
        <input type="checkbox" className="checked" name=" "/>
        <div className="toogle">+</div>
-       <div className="imgbox"> <img loading="lazy" className="cardimg " src={surajit} /></div>
+       <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={surajit} /></div>
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
@@ -313,7 +313,7 @@ class Team extends Component {
    <div  className="col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
        <input type="checkbox" className="checked" name=" "/>
        <div className="toogle">+</div>
-       <div className="imgbox"> <img loading="lazy" className="cardimg " src={ravi} /></div>
+       <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={ravi} /></div>
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
@@ -337,7 +337,7 @@ class Team extends Component {
 <div  className="col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
    <input type="checkbox" className="checked" name=" "/>
    <div className="toogle">+</div>
-   <div className="imgbox"> <img loading="lazy" className="cardimg " src={rawani} /></div>
+   <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={rawani} /></div>
    <div className="details"> 
    <div className="row">
   <div className="col-lg-12 name">
@@ -357,7 +357,7 @@ class Team extends Component {
    <div  className=" col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
        <input type="checkbox" className="checked" name=" "/>
        <div className="toogle">+</div>
-       <div className="imgbox"> <img loading="lazy" className="cardimg " src={anubhab} /></div>
+       <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={anubhab} /></div>
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
@@ -382,7 +382,7 @@ class Team extends Component {
 <div  className="col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
    <input type="checkbox" className="checked" name=" "/>
    <div className="toogle">+</div>
-   <div className="imgbox"> <img loading="lazy" className="cardimg " src={surabhi}/></div>
+   <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={surabhi}/></div>
    <div className="details"> 
    <div className="row">
   <div className="col-lg-12 name">
@@ -402,7 +402,7 @@ class Team extends Component {
    <div  className=" col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
        <input type="checkbox" className="checked" name=" "/>
        <div className="toogle">+</div>
-       <div className="imgbox"> <img loading="lazy" className="cardimg " src={bagchi}/></div>
+       <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={bagchi}/></div>
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
@@ -420,7 +420,7 @@ class Team extends Component {
    <div  className="col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
        <input type="checkbox" className="checked" name=" "/>
        <div className="toogle">+</div>
-       <div className="imgbox"> <img loading="lazy" className="cardimg " src={plaboni} /></div>
+       <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={plaboni} /></div>
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
@@ -444,7 +444,7 @@ class Team extends Component {
 <div  className="col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
    <input type="checkbox" className="checked" name=" "/>
    <div className="toogle">+</div>
-   <div className="imgbox"> <img loading="lazy" className="cardimg " src={anushka} /></div>
+   <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={anushka} /></div>
    <div className="details"> 
    <div className="row">
   <div className="col-lg-12 name">
@@ -463,7 +463,7 @@ class Team extends Component {
    <div  className="col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
    <input type="checkbox" className="checked" name=" "/>
    <div className="toogle">+</div>
-   <div className="imgbox"> <img loading="lazy" className="cardimg " src={aitihya} /></div>
+   <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={aitihya} /></div>
    <div className="details"> 
    <div className="row">
   <div className="col-lg-12 name">
@@ -481,14 +481,14 @@ class Team extends Component {
  </div>
   
 
-  <h3 className="events" id="teammembers">2nd Year</h3>
+  <h3 className="events" id="teammembers" style={{color:"black"}}>3rd Year</h3>
 <div className="members row">
    
    
 <div  className="col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
    <input type="checkbox" className="checked" name=" "/>
    <div className="toogle">+</div>
-   <div className="imgbox"> <img loading="lazy" className="cardimg " src={abhigyan} /></div>
+   <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={abhigyan} /></div>
    <div className="details"> 
    <div className="row">
   <div className="col-lg-12 name">
@@ -508,7 +508,7 @@ class Team extends Component {
    <div  className=" col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
        <input type="checkbox" className="checked" name=" "/>
        <div className="toogle">+</div>
-       <div className="imgbox"> <img loading="lazy" className="cardimg " src={abhishek} /></div>
+       <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={abhishek} /></div>
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
@@ -526,7 +526,7 @@ class Team extends Component {
    <div  className="col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
        <input type="checkbox" className="checked" name=" "/>
        <div className="toogle">+</div>
-       <div className="imgbox"> <img loading="lazy" className="cardimg " src={adrija} /></div>
+       <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={adrija} /></div>
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
@@ -549,7 +549,7 @@ class Team extends Component {
 <div  className="col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
    <input type="checkbox" className="checked" name=" "/>
    <div className="toogle">+</div>
-   <div className="imgbox"> <img loading="lazy" className="cardimg " src={ananya} /></div>
+   <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={ananya} /></div>
    <div className="details"> 
    <div className="row">
   <div className="col-lg-12 name">
@@ -569,7 +569,7 @@ class Team extends Component {
    <div  className=" col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
        <input type="checkbox" className="checked" name=" "/>
        <div className="toogle">+</div>
-       <div className="imgbox"> <img loading="lazy" className="cardimg " src={annasha} /></div>
+       <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={annasha} /></div>
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
@@ -587,7 +587,7 @@ class Team extends Component {
    <div  className="col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
        <input type="checkbox" className="checked" name=" "/>
        <div className="toogle">+</div>
-       <div className="imgbox"> <img loading="lazy" className="cardimg " src={anusha}/></div>
+       <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={anusha}/></div>
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
@@ -610,7 +610,7 @@ class Team extends Component {
 <div  className="col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
    <input type="checkbox" className="checked" name=" "/>
    <div className="toogle">+</div>
-   <div className="imgbox"> <img loading="lazy" className="cardimg " src={madhumita} /></div>
+   <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={madhumita} /></div>
    <div className="details"> 
    <div className="row">
   <div className="col-lg-12 name">
@@ -630,7 +630,7 @@ class Team extends Component {
    <div  className=" col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
        <input type="checkbox" className="checked" name=" "/>
        <div className="toogle">+</div>
-       <div className="imgbox"> <img loading="lazy" className="cardimg " src={arya} /></div>
+       <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={arya} /></div>
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
@@ -648,7 +648,7 @@ class Team extends Component {
    <div  className="col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
        <input type="checkbox" className="checked" name=" "/>
        <div className="toogle">+</div>
-       <div className="imgbox"> <img loading="lazy" className="cardimg " src={joy}/></div>
+       <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={joy}/></div>
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
@@ -671,7 +671,7 @@ class Team extends Component {
 <div  className="col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
    <input type="checkbox" className="checked" name=" "/>
    <div className="toogle">+</div>
-   <div className="imgbox"> <img loading="lazy" className="cardimg " src={madhura}/></div>
+   <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={madhura}/></div>
    <div className="details"> 
    <div className="row">
   <div className="col-lg-12 name">
@@ -691,7 +691,7 @@ class Team extends Component {
    <div  className=" col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
        <input type="checkbox" className="checked" name=" "/>
        <div className="toogle">+</div>
-       <div className="imgbox"> <img loading="lazy" className="cardimg " src={madhumita} /></div>
+       <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={madhumita} /></div>
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
@@ -709,7 +709,7 @@ class Team extends Component {
    <div  className="col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
        <input type="checkbox" className="checked" name=" "/>
        <div className="toogle">+</div>
-       <div className="imgbox"> <img loading="lazy" className="cardimg " src={piyanjana} /></div>
+       <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={piyanjana} /></div>
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
@@ -731,7 +731,7 @@ class Team extends Component {
 <div  className="col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
    <input type="checkbox" className="checked" name=" "/>
    <div className="toogle">+</div>
-   <div className="imgbox"> <img loading="lazy" className="cardimg " src={pritam} /></div>
+   <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={pritam} /></div>
    <div className="details"> 
    <div className="row">
   <div className="col-lg-12 name">
@@ -751,7 +751,7 @@ class Team extends Component {
    <div  className=" col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
        <input type="checkbox" className="checked" name=" "/>
        <div className="toogle">+</div>
-       <div className="imgbox"> <img loading="lazy" className="cardimg " src={rittick} /></div>
+       <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={rittick} /></div>
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
@@ -769,7 +769,7 @@ class Team extends Component {
    <div  className="col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
        <input type="checkbox" className="checked" name=" "/>
        <div className="toogle">+</div>
-       <div className="imgbox"> <img loading="lazy" className="cardimg " src={rik} /></div>
+       <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={rik} /></div>
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
@@ -791,7 +791,7 @@ class Team extends Component {
 <div  className="col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
    <input type="checkbox" className="checked" name=" "/>
    <div className="toogle">+</div>
-   <div className="imgbox"> <img loading="lazy" className="cardimg " src={saikat} /></div>
+   <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={saikat} /></div>
    <div className="details"> 
    <div className="row">
   <div className="col-lg-12 name">
@@ -811,7 +811,7 @@ class Team extends Component {
    <div  className=" col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
        <input type="checkbox" className="checked" name=" "/>
        <div className="toogle">+</div>
-       <div className="imgbox"> <img loading="lazy" className="cardimg " src={soumyajeet} /></div>
+       <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={soumyajeet} /></div>
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
@@ -829,7 +829,7 @@ class Team extends Component {
    <div  className="col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
        <input type="checkbox" className="checked" name=" "/>
        <div className="toogle">+</div>
-       <div className="imgbox"> <img loading="lazy" className="cardimg " src={sayani} /></div>
+       <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={sayani} /></div>
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
@@ -851,7 +851,7 @@ class Team extends Component {
 <div  className="col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
    <input type="checkbox" className="checked" name=" "/>
    <div className="toogle">+</div>
-   <div className="imgbox"> <img loading="lazy" className="cardimg " src={shivapriya} /></div>
+   <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={shivapriya} /></div>
    <div className="details"> 
    <div className="row">
   <div className="col-lg-12 name">
@@ -871,7 +871,7 @@ class Team extends Component {
    <div  className=" col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
        <input type="checkbox" className="checked" name=" "/>
        <div className="toogle">+</div>
-       <div className="imgbox"> <img loading="lazy" className="cardimg " src={sneha}/></div>
+       <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={sneha}/></div>
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
@@ -889,7 +889,7 @@ class Team extends Component {
    <div  className="col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
        <input type="checkbox" className="checked" name=" "/>
        <div className="toogle">+</div>
-       <div className="imgbox"> <img loading="lazy" className="cardimg " src={somdatta} /></div>
+       <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={somdatta} /></div>
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
@@ -911,7 +911,7 @@ class Team extends Component {
 <div  className="col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
    <input type="checkbox" className="checked" name=" "/>
    <div className="toogle">+</div>
-   <div className="imgbox"> <img loading="lazy" className="cardimg " src={soumyajit} /></div>
+   <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={soumyajit} /></div>
    <div className="details"> 
    <div className="row">
   <div className="col-lg-12 name">
@@ -931,7 +931,7 @@ class Team extends Component {
    <div  className=" col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
        <input type="checkbox" className="checked" name=" "/>
        <div className="toogle">+</div>
-       <div className="imgbox"> <img loading="lazy" className="cardimg " src={sujana} /></div>
+       <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={sujana} /></div>
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
@@ -949,7 +949,7 @@ class Team extends Component {
    <div  className="col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
        <input type="checkbox" className="checked" name=" "/>
        <div className="toogle">+</div>
-       <div className="imgbox"> <img loading="lazy" className="cardimg " src={suneha} /></div>
+       <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={suneha} /></div>
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
@@ -971,7 +971,7 @@ class Team extends Component {
 <div  className="col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
    <input type="checkbox" className="checked" name=" "/>
    <div className="toogle">+</div>
-   <div className="imgbox"> <img loading="lazy" className="cardimg " src={tamogna} /></div>
+   <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={tamogna} /></div>
    <div className="details"> 
    <div className="row">
   <div className="col-lg-12 name">
@@ -991,7 +991,7 @@ class Team extends Component {
    <div  className=" col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
        <input type="checkbox" className="checked" name=" "/>
        <div className="toogle">+</div>
-       <div className="imgbox"> <img loading="lazy" className="cardimg " src={tapojyoti} /></div>
+       <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={tapojyoti} /></div>
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
@@ -1009,7 +1009,7 @@ class Team extends Component {
    <div  className="col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
        <input type="checkbox" className="checked" name=" "/>
        <div className="toogle">+</div>
-       <div className="imgbox"> <img loading="lazy" className="cardimg " src={tiyasha}/></div>
+       <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={tiyasha}/></div>
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
@@ -1031,7 +1031,7 @@ class Team extends Component {
 <div  className="col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
    <input type="checkbox" className="checked" name=" "/>
    <div className="toogle">+</div>
-   <div className="imgbox"> <img loading="lazy" className="cardimg " src={trishika} /></div>
+   <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={trishika} /></div>
    <div className="details"> 
    <div className="row">
   <div className="col-lg-12 name">
@@ -1051,7 +1051,7 @@ class Team extends Component {
    <div  className=" col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
        <input type="checkbox" className="checked" name=" "/>
        <div className="toogle">+</div>
-       <div className="imgbox"> <img loading="lazy" className="cardimg " src={souvik} /></div>
+       <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={souvik} /></div>
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
@@ -1069,7 +1069,7 @@ class Team extends Component {
    <div  className="col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
        <input type="checkbox" className="checked" name=" "/>
        <div className="toogle">+</div>
-       <div className="imgbox"> <img loading="lazy" className="cardimg " src={rangeet}/></div>
+       <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={rangeet}/></div>
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
@@ -1091,7 +1091,7 @@ class Team extends Component {
 <div  className="col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
    <input type="checkbox" className="checked" name=" "/>
    <div className="toogle">+</div>
-   <div className="imgbox"> <img loading="lazy" className="cardimg " src={saswata}/></div>
+   <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={saswata}/></div>
    <div className="details"> 
    <div className="row">
   <div className="col-lg-12 name">
@@ -1110,7 +1110,7 @@ class Team extends Component {
    <div  className=" col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
        <input type="checkbox" className="checked" name=" "/>
        <div className="toogle">+</div>
-       <div className="imgbox"> <img loading="lazy" className="cardimg " src="./images/2nd/arunima..jpg" /></div>
+       <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src="./images/2nd/arunima..jpg" /></div>
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
@@ -1127,14 +1127,14 @@ class Team extends Component {
  </div>
 
 
-    <h3 className="events" id="teammembers">1st Year</h3>
+    <h3 className="events" id="teammembers" style={{color:"black"}}>2nd Year</h3>
 <div className="members row">
    
    
 <div  className="col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
    <input type="checkbox" className="checked" name=" "/>
    <div className="toogle">+</div>
-   <div className="imgbox"> <img loading="lazy" className="cardimg " src={ram} /></div>
+   <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={ram} /></div>
    <div className="details"> 
    <div className="row">
   <div className="col-lg-12 name">
@@ -1154,7 +1154,7 @@ class Team extends Component {
    <div  className=" col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
        <input type="checkbox" className="checked" name=" "/>
        <div className="toogle">+</div>
-       <div className="imgbox"> <img loading="lazy" className="cardimg " src={avishek} /></div>
+       <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={avishek} /></div>
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
@@ -1172,7 +1172,7 @@ class Team extends Component {
    <div  className="col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
        <input type="checkbox" className="checked" name=" "/>
        <div className="toogle">+</div>
-       <div className="imgbox"> <img loading="lazy" className="cardimg " src={avik} /></div>
+       <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={avik} /></div>
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
@@ -1194,7 +1194,7 @@ class Team extends Component {
 <div  className="col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
    <input type="checkbox" className="checked" name=" "/>
    <div className="toogle">+</div>
-   <div className="imgbox"> <img loading="lazy" className="cardimg " src={sayang} /></div>
+   <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={sayang} /></div>
    <div className="details"> 
    <div className="row">
   <div className="col-lg-12 name">
@@ -1214,7 +1214,7 @@ class Team extends Component {
    <div  className=" col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
        <input type="checkbox" className="checked" name=" "/>
        <div className="toogle">+</div>
-       <div className="imgbox"> <img loading="lazy" className="cardimg " src={aishwariya} /></div>
+       <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={aishwariya} /></div>
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
@@ -1232,7 +1232,7 @@ class Team extends Component {
    <div  className="col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
        <input type="checkbox" className="checked" name=" "/>
        <div className="toogle">+</div>
-       <div className="imgbox"> <img loading="lazy" className="cardimg " src={titas} /></div>
+       <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={titas} /></div>
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
@@ -1254,7 +1254,7 @@ class Team extends Component {
 <div  className="col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
    <input type="checkbox" className="checked" name=" "/>
    <div className="toogle">+</div>
-   <div className="imgbox"> <img loading="lazy" className="cardimg " src={ankita} /></div>
+   <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={ankita} /></div>
    <div className="details"> 
    <div className="row">
   <div className="col-lg-12 name">
@@ -1274,7 +1274,7 @@ class Team extends Component {
    <div  className=" col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
        <input type="checkbox" className="checked" name=" "/>
        <div className="toogle">+</div>
-       <div className="imgbox"> <img loading="lazy" className="cardimg " src={archi} /></div>
+       <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={archi} /></div>
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
@@ -1292,7 +1292,7 @@ class Team extends Component {
    <div  className="col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
        <input type="checkbox" className="checked" name=" "/>
        <div className="toogle">+</div>
-       <div className="imgbox"> <img loading="lazy" className="cardimg " src={rajdeep} /></div>
+       <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={rajdeep} /></div>
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
@@ -1314,7 +1314,7 @@ class Team extends Component {
 <div  className="col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
    <input type="checkbox" className="checked" name=" "/>
    <div className="toogle">+</div>
-   <div className="imgbox"> <img loading="lazy" className="cardimg " src={diksha} /></div>
+   <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={diksha} /></div>
    <div className="details"> 
    <div className="row">
   <div className="col-lg-12 name">
@@ -1334,7 +1334,7 @@ class Team extends Component {
    <div  className=" col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
        <input type="checkbox" className="checked" name=" "/>
        <div className="toogle">+</div>
-       <div className="imgbox"> <img loading="lazy" className="cardimg " src={aditi} /></div>
+       <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={aditi} /></div>
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
@@ -1352,7 +1352,7 @@ class Team extends Component {
    <div  className="col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
        <input type="checkbox" className="checked" name=" "/>
        <div className="toogle">+</div>
-       <div className="imgbox"> <img loading="lazy" className="cardimg " src={chandrima} /></div>
+       <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={chandrima} /></div>
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
@@ -1374,7 +1374,7 @@ class Team extends Component {
 <div  className="col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
    <input type="checkbox" className="checked" name=" "/>
    <div className="toogle">+</div>
-   <div className="imgbox"> <img loading="lazy" className="cardimg " src={gayatri} /></div>
+   <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={gayatri} /></div>
    <div className="details"> 
    <div className="row">
   <div className="col-lg-12 name">
@@ -1394,7 +1394,7 @@ class Team extends Component {
    <div  className=" col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
        <input type="checkbox" className="checked" name=" "/>
        <div className="toogle">+</div>
-       <div className="imgbox"> <img loading="lazy" className="cardimg " src={aashish} /></div>
+       <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={aashish} /></div>
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
@@ -1412,7 +1412,7 @@ class Team extends Component {
    <div  className="col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
        <input type="checkbox" className="checked" name=" "/>
        <div className="toogle">+</div>
-       <div className="imgbox"> <img loading="lazy" className="cardimg " src={chitrita} /></div>
+       <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={chitrita} /></div>
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
@@ -1434,7 +1434,7 @@ class Team extends Component {
 <div  className="col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
    <input type="checkbox" className="checked" name=" "/>
    <div className="toogle">+</div>
-   <div className="imgbox"> <img loading="lazy" className="cardimg " src={ansh} /></div>
+   <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={ansh} /></div>
    <div className="details"> 
    <div className="row">
   <div className="col-lg-12 name">
@@ -1454,7 +1454,7 @@ class Team extends Component {
    <div  className=" col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
        <input type="checkbox" className="checked" name=" "/>
        <div className="toogle">+</div>
-       <div className="imgbox"> <img loading="lazy" className="cardimg " src={sankita} /></div>
+       <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={sankita} /></div>
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
@@ -1472,7 +1472,7 @@ class Team extends Component {
    <div  className="col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
        <input type="checkbox" className="checked" name=" "/>
        <div className="toogle">+</div>
-       <div className="imgbox"> <img loading="lazy" className="cardimg " src={prabhat}/></div>
+       <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={prabhat}/></div>
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
@@ -1494,7 +1494,7 @@ class Team extends Component {
 <div  className="col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
    <input type="checkbox" className="checked" name=" "/>
    <div className="toogle">+</div>
-   <div className="imgbox"> <img loading="lazy" className="cardimg " src={akansha} /></div>
+   <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={akansha} /></div>
    <div className="details"> 
    <div className="row">
   <div className="col-lg-12 name">
@@ -1514,7 +1514,7 @@ class Team extends Component {
    <div  className=" col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
        <input type="checkbox" className="checked" name=" "/>
        <div className="toogle">+</div>
-       <div className="imgbox"> <img loading="lazy" className="cardimg " src={anupam}/></div>
+       <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={anupam}/></div>
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
@@ -1532,7 +1532,7 @@ class Team extends Component {
    <div  className="col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
        <input type="checkbox" className="checked" name=" "/>
        <div className="toogle">+</div>
-       <div className="imgbox"> <img loading="lazy" className="cardimg " src={sayantani} /></div>
+       <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={sayantani} /></div>
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
@@ -1554,7 +1554,7 @@ class Team extends Component {
 <div  className="col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
    <input type="checkbox" className="checked" name=" "/>
    <div className="toogle">+</div>
-   <div className="imgbox"> <img loading="lazy" className="cardimg " src={sayan} /></div>
+   <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={sayan} /></div>
    <div className="details"> 
    <div className="row">
   <div className="col-lg-12 name">
@@ -1574,7 +1574,7 @@ class Team extends Component {
    <div  className=" col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
        <input type="checkbox" className="checked" name=" "/>
        <div className="toogle">+</div>
-       <div className="imgbox"> <img loading="lazy" className="cardimg " src={shubham} /></div>
+       <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={shubham} /></div>
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
@@ -1592,7 +1592,7 @@ class Team extends Component {
    <div  className="col-lg-3 col-md-3 col-sm-10 col-xs-10 card">
        <input type="checkbox" className="checked" name=" "/>
        <div className="toogle">+</div>
-       <div className="imgbox"> <img loading="lazy" className="cardimg " src={ramiz} /></div>
+       <div className="imgbox"> <img style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={ramiz} /></div>
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">

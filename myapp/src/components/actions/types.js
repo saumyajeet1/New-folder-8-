@@ -13,4 +13,7 @@ export const ALLNEWS="allnews"
 export const  FORGET="forget"
 export const ADDEDUCATION="addeducation"
 export const REGISTER_ALUM='registeralum'
+export const  ADDEVENTS="addevents"
 export const NOTIFICATION='notification'
+
+export const ALLGALLERY='allgallery'

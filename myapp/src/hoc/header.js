@@ -17,13 +17,13 @@ class Header extends Component {
               <div className="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul className="navbar-nav">
                   <li className="nav-item">
-                  <Link className ="nav-link" style={{fontFamily:"Times new roman",fontSize:"15px"}} to="/o">HOME</Link>
+                  <Link className ="nav-link" style={{fontFamily:"Times new roman",fontSize:"15px"}} to="/">HOME</Link>
                   </li>
                   {/* <li className="nav-item">
                   <Link className ="nav-link" style={{fontFamily:"Times new roman",fontSize:"15px"}} to="/facad">FACULTY</Link>
                   </li> */}
                   <li className="nav-item">
-                  <Link className ="nav-link" style={{fontFamily:"Times new roman",fontSize:"15px"}} to="/">MEMBER</Link>
+                  <Link className ="nav-link" style={{fontFamily:"Times new roman",fontSize:"15px"}} to="/o">MEMBER</Link>
                   </li>
                   </ul>
              </div>  
