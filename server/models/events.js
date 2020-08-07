@@ -19,6 +19,9 @@ const eventSchema=mongoose.Schema({
     date:{
     type:String
     },
+    type:{
+     type:String
+    },
     images:{
         type:Array,
 

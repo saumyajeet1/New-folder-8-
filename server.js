@@ -54,6 +54,25 @@ var transporter = nodemailer.createTransport({
       });
 }  
 
+
+app.post('/api/records/searchyr',(req,res)=>{
+    console.log(req.body)
+    Record.find( {$or: [
+        {"type":req.body.type}
+     ]},(err,result)=>{
+        
+      console.log(result) 
+      console.log(err)
+      if(err){
+        console.log(err)
+        return  res.status(400).send(err)
+      }
+     res.status(200).json({
+          resyr:result
+    })
+})
+})
+
     app.post('/api/members/register',(req,res)=>{
      console.log(arr)
      console.log(req.body.email)

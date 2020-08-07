@@ -6,7 +6,6 @@ import ImageGallery from 'react-image-gallery';
 class GalleryDis extends Component {
     state={
         images:[],
-        original:[],
     }
     componentWillMount=()=>{
         this.props.dispatch(allgallery()).then(res=>{
@@ -14,18 +13,27 @@ class GalleryDis extends Component {
             this.setState({
                 images:res.payload
             })
-            this.state.images.map((item,i)=>{
-                this.state.original.push(item.images[0])
-            })
-            this.state.original.splice(0,1)
-            
-            console.log(this.state.original)
+            console.log(this.state.images)
         }).catch(err=>console.log(err))
     }
     render() {
         return (
-            
-            <ImageGallery items={this.state.original} />
+        <div>
+            {
+             this.state.images.length>0 ?
+             this.state.images.images.map((item,i)=>(
+                   <div className="row" key={i}>
+                        <div className="row" id="imgBox">
+                            <img src={item.images.url}/>
+                             <div className="row">
+                                <p>{item.name}</p>
+                            </div>   
+                        </div>
+                   </div>
+        )):null
+             
+            }
+        </div>
         );
     }
 }

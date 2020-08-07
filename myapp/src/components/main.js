@@ -8,8 +8,25 @@ import twonine from "./images/29.jpg"
 import seventeen from "./images/17.jpg"
 import one from "./images/1.jpg"
 import logo from "./images/logo.png"
+import {connect} from "react-redux"
 import eleven from "./images/11.jpg" 
+import { searchyear } from './actions/recordactions';
+import {Link} from 'react-router-dom'
 class Main extends Component {
+    state={
+
+    }
+    searchtype=(e,type)=>{
+        e.preventdefaults()
+        this.props.dispatch(searchyear(type)).then(res=>{
+            this.setState({
+                results:res.payload
+            })
+            
+        }).catch(err=>{
+            console.log(err)
+        })
+    }
     render() {
         return (
             <div>
@@ -81,7 +98,7 @@ class Main extends Component {
         {/* <!-- Events -->
      <!-- Enter pictures of events here --> */}
      <div className="row">
-          <h1 className="events" style={{color:"black", marginLeft:"20px"}}id="events">EVENTS</h1>
+          <p className="events" style={{color:"black",textAlign:"center !important",marginLeft:"20px"}}>EVENTS</p>
      <div className="contain" >
     <div className="card">
         <div className="imgcard">
@@ -108,7 +125,12 @@ class Main extends Component {
                     year in the day of Makar Sankranti. The fierce battle of kites and the energetic dance moves
                     creates a vibrant environment . Everyone delves into the madness of this colourful festival and
                     enjoys every bit of time.</p>
-                        <button onClick=""><a href="https://m.facebook.com/story.php?story_fbid=2868811669881868&id=840463576050031">READ MORE</a></button>
+                        {/* <button onClick=""><a href="https://m.facebook.com/story.php?story_fbid=2868811669881868&id=840463576050031">READ MORE</a></button> */}
+                      <Link to={{pathname:"/eventdis",state:{
+                          type:"UTTRAYAN"
+                      }}}>
+                          SEE ARTICLES
+                          </Link>  
                </div> 
             
         </div>
@@ -123,7 +145,12 @@ class Main extends Component {
                         workshop focuses to bring the colourful flare of creativity among the underprivileged children
                         of Durgapur. With a plethora of colourful art, craft and intricate origami, it is truly a magnificent
                         opportunity for the children to explore the depths of their imagination and unleash its vibrancy</p>
-                            <button onClick=""><a href="https://x.facebook.com/pg/spicmacaynitd/posts/?ref=page_internal&mt_nav=0">READ MORE</a></button>
+                            {/* <button onClick=""><a href="https://x.facebook.com/pg/spicmacaynitd/posts/?ref=page_internal&mt_nav=0">READ MORE</a></button> */}
+                            <Link to={{pathname:"/eventdis",state:{
+                          type:"ANUBHAV"
+                      }}}>
+                          SEE ARTICLES
+                          </Link>  
                    </div> 
             
             </div>
@@ -131,6 +158,68 @@ class Main extends Component {
 </div>        
 
 </div>
+
+<div className="row">
+     <div className="contain1" >
+    <div className="card">
+        <div className="imgcard">
+           <img className="images" src={one}/>
+        </div>
+           <div className="detail">
+               <h2 className="titl">VIRASAT</h2>
+               <p className="info">VIRASAT is the official cultural extravaganza organized by SPIC MACAY NIT Durgapur Chapter.
+                The perfect blend of gorgeous grace with sonorous tune swirls in the flavour of Indian culture
+                and tradition. Esteemed artists of the likes of Pt Viswa Mohan Bhatt(Grammy Award
+                Winner), Dr. N. Rajam, Pt. Ajoy Chakraborty etc. have been show stealers in the recent past. So
+                what are you waiting for? Fasten your seatbelts and get ready to soak in India's rich heritage at
+                its finest.</p>
+                    {/* <button onclick=""><a href="./loader2.html">READ MORE</a></button> */}
+           </div> 
+    </div>
+    <div className="card">
+            <div className="imgcard">
+               <img className="images" src={twonine}/>
+            </div>
+               <div className="detail">
+                   <h2 className="titl">UTTRAYAN</h2>
+                   <p className="info">Uttarayan is the annual kite festival of SPIC MACAY NIT Durgapur Chapter. It is celebrated every
+                    year in the day of Makar Sankranti. The fierce battle of kites and the energetic dance moves
+                    creates a vibrant environment . Everyone delves into the madness of this colourful festival and
+                    enjoys every bit of time.</p>
+                        {/* <button onClick=""><a href="https://m.facebook.com/story.php?story_fbid=2868811669881868&id=840463576050031">READ MORE</a></button> */}
+                      <Link to={{pathname:"/eventdis",state:{
+                          type:"UTTRAYAN"
+                      }}}>
+                          SEE ARTICLES
+                          </Link>  
+               </div> 
+            
+        </div>
+        <div className="card">
+                <div className="imgcard">
+                   <img className="images" src={seventeen}/>
+                </div>
+                   <div className="detail">
+                       <h2 className="titl">ANUBHAV</h2>
+                       <p className="info" style={{fontSize:"10px"}}>" Creativity is intelligence having fun." With this mantra, SPIC MACAY NIT Durgapur Chapter and
+                        BMEP join hands every year to organise its annual art workshop, Anubhav. This one of a kind art
+                        workshop focuses to bring the colourful flare of creativity among the underprivileged children
+                        of Durgapur. With a plethora of colourful art, craft and intricate origami, it is truly a magnificent
+                        opportunity for the children to explore the depths of their imagination and unleash its vibrancy</p>
+                            {/* <button onClick=""><a href="https://x.facebook.com/pg/spicmacaynitd/posts/?ref=page_internal&mt_nav=0">READ MORE</a></button> */}
+                            <Link to={{pathname:"/eventdis",state:{
+                          type:"ANUBHAV"
+                      }}}>
+                          SEE ARTICLES
+                          </Link>  
+                   </div> 
+            
+            </div>
+                        
+</div>        
+
+</div>
+
    {/* <!-- <div className="row">
     <div className="gallery col-lg-12 col-sm-12 col-xs-12 col-md-12"/>
         
@@ -385,4 +474,4 @@ class Main extends Component {
     }
 }
 
-export default Main;  
+export default connect()(Main);  

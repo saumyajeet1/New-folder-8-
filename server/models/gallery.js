@@ -12,7 +12,11 @@ const gallerySchema=mongoose.Schema({
     
     images:{
         type:Array,
-
+        required:true
+    },
+    name:{
+        type:String,
+        required:true
     }
    
 })

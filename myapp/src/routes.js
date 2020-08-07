@@ -8,12 +8,14 @@ import GalleryDis from './components/gallerydis';
 import Details from './components/details';
 import galleryentry from './components/galleryentry';
 import  Gallery  from './components/galleryentry';
+import Virasat from './components/virasat';
 const Routes = () => {
     return (
         <Layout>
         <Switch>
             
         <Route component={Main} exact path="/"/> 
+        <Route component={Virasat} exact path="/virasat"/> 
            
         <Route component={Team} exact path="/o"/>
         <Route component={GalleryDis} exact path="/g"/>

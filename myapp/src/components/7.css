@@ -55,8 +55,7 @@
 
   
 body{
-  background-image: url('./images/backg1.jpg');
-  
+ background-color: yellow;
 }
 .sidenav {
     height: 100%;
